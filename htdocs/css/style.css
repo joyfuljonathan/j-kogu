@@ -933,6 +933,37 @@ font-family: 'Bebas Neue', sans-serif;
 		/* Allow wrapping on small screens */
 	}
 }
+/* jonathan top message style */
+
+.top_message_bold {
+		font-size: 38px;
+		line-height: 1.8;
+		color: #cccccc;
+		margin: 0 0 20px 0;
+	}
+
+.top_message {
+	font-size: 20px;
+	color: #888888;
+	line-height: 1.8;
+	margin: 0 0 50px 0;
+		}
+
+@media screen and (max-width: 768px) {
+
+	.top_message_bold {
+		font-size: 38px;
+		line-height: 1.1;
+	}
+
+	.top_message {
+		font-size: 15px;
+		color: #888888;
+		line-height: 1.8;
+		margin: 0 0 50px 0;
+		}
+
+	}
 
 .btn_cnt.cl_2 a,
 .box_cont .btn_cnt a {
@@ -2793,7 +2824,7 @@ dl.faq dd {
 			}
 	/* jonathan mobile for text at top with background image */
 	#index_top #top_catch h1 {
-			font-size: 34px !important;
+			font-size: 50px !important;
 			white-space: normal !important;
 			line-height: 1.2 !important;
 			padding-left: 20px !important;
@@ -2804,8 +2835,8 @@ dl.faq dd {
 		
 	#index_top #top_catch p {
 			white-space: normal !important;
-			padding-left: 20px !important;
-			padding-right: 20px !important;
+			/* padding-left: 20px !important;
+			padding-right: 20px !important; */
 			line-height: 1.5;
 			}
 	/* jonathan mobile for background image */
