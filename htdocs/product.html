@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+
+<!--
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+原則として、許可なしの再配布は禁止させていただきます。
+また、無料でお使いになる場合は、【ＰＲ枠】のリンクは全て削除禁止です。
+（※加工後の削除も禁止させていただいておりますのでご了承ください。）
+PR枠の削除（有料プラン）に関するお問い合わせや、その他ご不明な点は、
+https://www.megapx.com/contact.htmlよりお問い合わせください。
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>JKogu</title>
+  <meta name="Keywords" content=".KOGU　OriginalBrand" />
+  <meta name="Description" content="J.KOGU　OriginalBrand" />
+
+
+  <link rel="stylesheet" href="css/style.css" />
+
+
+  <link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    
+  <link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <style>
+
+
+
+body {
+    background: #111111;
+    /* color: purple; */
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Main content area */
+.cont_wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+    color: #ffffff;
+    padding-top: 200px;
+}
+
+/* Product title */
+#productName {
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-size: 54px;
+    letter-spacing: 3px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    /* text-transform: uppercase; */
+    color: #ffffff;
+}
+
+/* Subtitle / tagline */
+#productTagline {
+    font-size: 20px;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+/* Price text */
+#priceText {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e6c05f;
+}
+
+/* Description */
+#productDescription {
+    color: #dddddd;
+    line-height: 1.9;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+/* Main image */
+.product-image,
+#mainImage {
+    width: 100%;
+    border: 1px solid #333333;
+    background-image: url("img/productBG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: brightness(0.3); */
+
+}
+/* Image viewer */
+.image-viewer {
+    background: #1a1a1a;
+}
+
+/* Thumbnail images */
+.thumb {
+    border: 2px solid transparent;
+    transition: all .2s ease;
+    background-image: url("img/productBG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: brightness(0.5); */
+
+}
+
+.thumb:hover {
+    border-color: #860001;
+}
+
+.thumb.active {
+    border: 2px solid #860001;
+}
+
+/* Navigation arrows */
+.nav-arrow {
+    background: #860001;
+    color: white;
+    border: none;
+    transition: background .2s ease;
+}
+
+.nav-arrow:hover {
+    background: #a50000;
+}
+
+/* Spec table */
+.spec-jp {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.spec-jp th,
+.spec-jp td {
+    border: 1px solid #333333;
+    padding: 12px 14px;
+}
+
+.spec-jp th {
+    width: 220px;
+    background: #860001;
+    color: white;
+    font-weight: 700;
+    text-align: left;
+}
+
+.spec-jp td {
+    background: #1a1a1a;
+    color: #ffffff;
+}
+
+.spec-jp ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.spec-jp li {
+    margin-bottom: 4px;
+}
+
+/* Buttons */
+.w3-button {
+    background: #860001 !important;
+    color: white !important;
+    border: none;
+}
+
+.w3-button:hover {
+    background: #a50000 !important;
+}
+
+/* Links */
+a {
+    transition: opacity .2s ease;
+}
+
+a:hover {
+    opacity: 0.85;
+}
+
+/* Product section */
+.product-layout {
+    /* background: purple; */
+    background: #111111;
+}
+
+.product-detail{
+  padding-top:200px;
+}
+
+
+/* Mobile spacing */
+@media (max-width: 992px) {
+
+    #productName {
+        font-size: 35px;
+    }
+
+    .cont_wrap {
+        padding: 20px 15px 40px;
+        padding-top: 100px;
+    }
+
+    .spec-jp th {
+        width: 140px;
+    }
+}
+
+</style>
+</head>
+<body>
+    <header style="font-family: 'Bebas Neue', sans-serif;">
+        <div class="bg_bl"></div>
+        <h1><a href="index.html"><img src="img/logo.png" alt="J.KOGU"></a></h1>
+        <a class="menu_btn">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </a>
+        <nav id="g_navi">
+            <ul>
+                <!-- <li><a href="index.html">HOME</a></li> -->
+                <li><a style="font-size: 20px;" href="index.html">HOME</a></li>
+                <li><a style="font-size: 20px;" href="index.html#products-anchor">PRODUCTS</a></li>
+                <li class="contact"><a style="font-size: 20px;" href="https://forms.gle/WzXSx8pXiBpYRdG39">Contact
+                        us</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="cont_wrap">
+  <div class="w3-row-padding">
+    <!-- Images -->
+    <div class="w3-half">
+      <div style="position:relative;">
+        <button onclick="prevImage()"
+                style="position:absolute;left:0;top:50%;z-index:10;">
+          ◀
+        </button>
+        <img id="mainImage"
+             style="width:100%;">
+        <button onclick="nextImage()"
+                style="position:absolute;right:0;top:50%;z-index:10;">
+          ▶
+        </button>
+
+      </div>
+
+      <div id="thumbContainer"
+           class="w3-row-padding"
+           style="margin-top:20px;">
+      </div>
+
+    </div>
+
+    <!-- Product Info -->
+    <div class="w3-half" style="color: #ffffff; font-family: 'Oswald', sans-serif;">
+      <h1 id="productName" ></h1>
+      <p  id="productTagline"></p>
+      <p>
+        <strong id="priceText"></strong>
+      </p>
+      <p id="productDescription"></p>
+      <table class="spec-jp">
+        <tbody id="specTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+      <footer style="
+        background-color: #111111;
+        color: #ffffff;
+        text-align: center;
+        padding: 50px 20px 30px;
+        margin-top: 60px;
+            display: flex;
+        flex-direction: column;
+        align-items: center;
+         ">
+
+            <!-- Logo -->
+            <img src="img/logo.png" alt="J.KOGU" class="footer-logo"
+                style="max-width: 140px; height: auto; margin-bottom: 25px;">
+
+
+            <!-- Navigation Links -->
+            <div style="
+            margin-bottom: 25px;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 24px;
+            letter-spacing: 2px;
+            word-spacing: 8px;
+            text-transform: uppercase;
+         ">
+
+                <a href="index.html" style="color:#ffffff; text-decoration:none; margin:0 15px;">Home</a>
+                <a href="index.html#products-anchor"
+                    style="color:#ffffff; text-decoration:none; margin:0 15px;">PRODUCTS</a>
+
+                <!-- <a href="javascript:void(0);" onclick="scrollToProducts()" style="color:#ffffff; text-decoration:none; margin:0 15px;">PRODUCTS</a> -->
+                <a href="index.html" style="color:#ffffff; text-decoration:none; margin:0 15px;">Company</a>
+                <a href="https://forms.gle/WzXSx8pXiBpYRdG39"
+                    style="color:#ffffff; text-decoration:none; margin:0 15px;">Contact</a>
+            </div>
+
+            <!-- Tagline -->
+            <p style="
+            font-size: 14px;
+            line-height: 1.8;
+            color: #cccccc;
+            margin: 0 0 20px 0;
+        ">
+                Rancho Dominguez, California
+            </p>
+
+            <!-- Copyright -->
+            <p style="
+            font-size: 12px;
+            color: #888888;
+            margin: 0;
+        ">
+                © 2026 J.KOGU. All Rights Reserved. <a href="privacy.html" class="privacy_link">Privacy Policy</a>
+            </p>
+
+            </div>
+      </footer>
+
+
+    <div class="to_top"><a href="#"><i class="fas fa-chevron-up" title="ページトップへ戻る"></i></a></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+     <script>
+    let images = [];
+    let currentImageIndex = 0;
+
+    function updateMainImage() {
+      document.getElementById("mainImage").src = images[currentImageIndex];
+
+      const thumbs = document.getElementsByClassName("thumb");
+      for (let i = 0; i < thumbs.length; i++) {
+        thumbs[i].classList.toggle("active", i === currentImageIndex);
+      }
+    }
+
+    function nextImage() {
+      currentImageIndex = (currentImageIndex + 1) % images.length;
+      updateMainImage();
+    }
+
+    function prevImage() {
+      currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+      updateMainImage();
+    }
+
+    function changeImage(index) {
+      currentImageIndex = index;
+      updateMainImage();
+    }
+
+    async function loadProduct() {
+      const params = new URLSearchParams(window.location.search);
+      const sku = params.get("sku");
+
+      if (!sku) {
+        alert("No SKU specified");
+        return;
+      }
+
+      const response = await fetch("./data/product_detail.json");
+      const products = await response.json();
+
+      const product = products[sku];
+      if (!product) {
+        alert("Product not found: " + sku);
+        return;
+      }
+
+      // Basic info
+      document.getElementById("productName").textContent = product.name;
+      document.getElementById("productTagline").textContent = product.tagline || "";
+      document.getElementById("priceText").textContent = product.price_text || "";
+      document.getElementById("productDescription").textContent = product.description2 || "";
+
+      // Images
+      images = product.images;
+      currentImageIndex = 0;
+      updateMainImage();
+
+      const thumbContainer = document.getElementById("thumbContainer");
+      thumbContainer.innerHTML = "";
+
+      images.forEach((src, index) => {
+        const col = document.createElement("div");
+        col.className = "w3-col s3";
+
+        const img = document.createElement("img");
+        img.src = src;
+        img.className = "w3-image w3-hover-opacity thumb" +
+          (index === 0 ? " active" : "");
+        img.onclick = () => changeImage(index);
+
+        col.appendChild(img);
+        thumbContainer.appendChild(col);
+      });
+
+
+      const specBody = document.getElementById("specTableBody");
+      specBody.innerHTML = "";
+
+      Object.values(product).forEach(field => {
+        if (!field?.dt || !field?.dd) return;
+
+        const row = document.createElement("tr");
+
+        const th = document.createElement("th");
+        th.textContent = field.dt;
+
+        const td = document.createElement("td");
+
+        // If dd is an array → bullet list
+        if (Array.isArray(field.dd)) {
+          const ul = document.createElement("ul");
+          field.dd.forEach(item => {
+            const li = document.createElement("li");
+            li.textContent = item;
+            ul.appendChild(li);
+          });
+          td.appendChild(ul);
+        } else {
+          td.textContent = field.dd;
+        }
+
+        row.appendChild(th);
+        row.appendChild(td);
+        specBody.appendChild(row);
+      });
+
+
+
+
+    }
+
+    document.addEventListener("DOMContentLoaded", loadProduct);
+  </script>
+
+</body>
+
+</html>
