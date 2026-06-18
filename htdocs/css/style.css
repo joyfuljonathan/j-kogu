@@ -189,7 +189,7 @@ header h1 a img {
 	color: #111;
 	/* padding-top: 50px; */
 	padding-top: 0;
-	padding-bottom: 50px;
+	/* padding-bottom: 50px; */
 	/* margin-top: -3px; */
 }
 .cont_wrap {
@@ -201,7 +201,7 @@ header h1 a img {
 		margin: 0 auto;
 		padding: 0 20px;
 }
-/* jonathan the style below is for the top message text */
+/* web team the style below is for the top message text */
 
 /* .message_block {
 	max-width: 900px;
@@ -254,7 +254,7 @@ header h1 a img {
 
 /* css i have added for the 6 product display below news  */
 
-/* jonathan. this makes sure the jump from the link doesnt cut off the section title */
+/* web team. this makes sure the jump from the link doesnt cut off the section title */
 
 #products-anchor {
 	scroll-margin-top: 500px;
@@ -276,12 +276,12 @@ header h1 a img {
 	box-sizing: border-box;
 	/* aspect-ratio: 1/1 ; */
 
-	/* jonathan the bit below helps enable the 8 products at a time display */
+	/* web team the bit below helps enable the 8 products at a time display */
 	display: none;
 		/* IMPORTANT: JS will control visibility */
 } 
 
-/* jonathan privacy policy */
+/* web team privacy policy */
 
 .privacy_link {
 	color: #fff;
@@ -295,7 +295,7 @@ header h1 a img {
 .privacy_wrap {
 	max-width: 900px;
 	margin: 0 auto;
-	padding: 100px 20px;
+	padding: 150px 20px 20px;
 }
 
 .privacy_title {
@@ -305,6 +305,8 @@ header h1 a img {
 	letter-spacing: 0.08em;
 	margin-bottom: 60px;
 	font-family: 'Archivo Black', sans-serif;
+	padding-top: 60px;
+	border-bottom: none;
 }
 
 .privacy_text {
@@ -315,25 +317,37 @@ header h1 a img {
 }
 
 .privacy_text h3 {
-	color: #fff;
-	font-size: 24px;
-	margin-top: 60px;
-	margin-bottom: 20px;
-	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'Bebas Neue', sans-serif;
+	margin-bottom: 12px;
+		font-family: 'Alfa Slab One', serif;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 1.4;
+		color: #fff;
 }
 
 .privacy_text p {
-	margin-bottom: 24px;
+		margin-bottom: 24px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 16px;
+		line-height: 1.8;
+		letter-spacing: 0.5px color: #fff;
 }
 
 .privacy_link:hover {
 	opacity: 1;
 	text-decoration: underline;
+
+}
+@media screen and (max-width: 768px) {
+	.privacy_wrap {
+		padding: 80px 20px 20px;
+	}
 }
 
 
-/* jonathan the css below styles discover the difference  */
+/* web team the css below styles discover the difference  */
 .hero-title {
 	font-size: 55px;
 	white-space: nowrap;
@@ -371,7 +385,7 @@ header h1 a img {
 	display: block;
 }
 
-		/* jonathan styles the gallery nav and moves it down */
+		/* web team styles the gallery nav and moves it down */
 				.gallery-nav {
 					display: flex;
 					justify-content: center;
@@ -472,7 +486,7 @@ header h1 a img {
 	width: 700px;
 	/* width: 560px; */
 	/* height: 300px; */
-	height: 600px;
+	/* height: 600px; */
 	/* margin-top: -250px; */
 	/* margin-left: -280px; */
 	color: #FFF;
@@ -523,7 +537,7 @@ header h1 a img {
 	color: #EEE;
 }
 
-/* jonathan this is to style the text under the jkogu difference section */
+/* web team this is to style the text under the jkogu difference section */
 /* .hero-subtitle {
 	color: #fff;
 	font-size: 25px;
@@ -537,14 +551,11 @@ header h1 a img {
 	font-size: 28px;
 	line-height: 1.5;
 	margin-bottom: 20px;
-	border-bottom-width: 1px;
-	border-bottom-style: dotted;
-	border-bottom-color: #111;
 	font-weight: normal;
 	letter-spacing: 1px;
-	color: #111;
+	/* color: #111; */
+	color: #fff;
 	text-align: center;
-	/* font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, "Sawarabi Mincho", "HG明朝E",  "ＭＳ Ｐ明朝", "MS PMincho", serif; */
 	font-family: 'Bebas Neue', sans-serif;
 	padding-top: 30px;
 	padding-right: 10px;
@@ -845,7 +856,7 @@ font-family: 'Bebas Neue', sans-serif;
 	
 }
 
-/* jonathan contact form styling */
+/* web team contact form styling */
 
 .contact_form {
 	width: 100%;
@@ -930,10 +941,11 @@ font-family: 'Bebas Neue', sans-serif;
 	.btn_cnt2 a {
 		font-size: 24px;
 		white-space: normal;
+		/* letter-spacing: 4px; */
 		/* Allow wrapping on small screens */
 	}
 }
-/* jonathan top message style */
+/* web team top message style */
 
 .top_message_bold {
 		font-size: 38px;
@@ -947,6 +959,7 @@ font-family: 'Bebas Neue', sans-serif;
 	color: #888888;
 	line-height: 1.8;
 	margin: 0 0 50px 0;
+	font-family: 'Roboto', sans-serif;
 		}
 
 @media screen and (max-width: 768px) {
@@ -957,10 +970,11 @@ font-family: 'Bebas Neue', sans-serif;
 	}
 
 	.top_message {
-		font-size: 15px;
+		font-size: 20px;
 		color: #888888;
 		line-height: 1.8;
 		margin: 0 0 50px 0;
+		font-family: 'Roboto', sans-serif;
 		}
 
 	}
@@ -1161,6 +1175,8 @@ footer .box_pr {
 .content table.table_01 th {
 	font-size: 16px;
 	color: #fff;
+	/* color: #111; */
+	/* background-color: #111; */
 	white-space: nowrap;
 	font-weight: normal;
 	letter-spacing: 1px;
@@ -1169,6 +1185,7 @@ footer .box_pr {
 .content table.table_01 td {
 	font-size: 14px;
 	line-height: 30px;
+	/* background-color: #111; */
 	background-color: #FFF;
 }
 
@@ -1312,7 +1329,7 @@ footer .box_pr {
 
 
 
-/* jonathan fix the j kogu difference images  */
+/* web team fix the j kogu difference images  */
 
 .pick_up.custom-row ul {
 	display: flex;
@@ -1406,10 +1423,8 @@ footer .box_pr {
 		text-align: center;
 		color: #FFF;
 		padding: 30px 20px;
-		margin: 50px 0;
-		/* filter: grayscale(100%); */
+		margin: 0px 0;
 		padding: 80px 20px 5px;
-			/* border: 5px solid red; */
 	}
 
 
@@ -1436,23 +1451,8 @@ footer .box_pr {
 	height: auto;
 	display: block;
 	margin: 0 auto 10px;
-	/* filter: brightness(0) saturate(100%) invert(21%) sepia(93%) saturate(2450%) hue-rotate(205deg) brightness(95%) contrast(95%); */
-	/* filter: brightness(0) saturate(100%) invert(19%) sepia(99%) saturate(3434%) hue-rotate(214deg) brightness(96%) contrast(101%);
-	 */
-		filter: brightness(0) saturate(100%) invert(83%) sepia(28%) saturate(745%) hue-rotate(2deg) brightness(103%) contrast(92%);
 }
 
-.icon_item2 img {
-	width: 60px;
-	/* adjust size here */
-	height: 60px;
-	display: block;
-	margin: 0 auto 10px;
-	object-fit: contain;
-		filter: brightness(0) saturate(100%) invert(83%) sepia(28%) saturate(745%) hue-rotate(2deg) brightness(103%) contrast(92%);
-
-	/* filter: brightness(0) saturate(100%) invert(21%) sepia(93%) saturate(2450%) hue-rotate(205deg) brightness(95%) contrast(95%); */
-}
 
 /* Label text */
 .icon_item p {
@@ -1628,7 +1628,7 @@ header.txt_w.fixed #g_navi li a {
 -------------------------------------------*/
 
 #index_top {
-	/* jonathan: changes the top background image section height */
+	/* web team: changes the top background image section height */
 	min-height: 650px;
 }
 
@@ -1654,7 +1654,7 @@ header.txt_w.fixed #g_navi li a {
 	background-image: url(../img/slide/NewBackground.png);
 }
 
-/* jonathan */
+/* web team */
 #sub_top_about.about {
 	background-image: url(../img/slide/NewBackground.png);
 }
@@ -1862,7 +1862,7 @@ header.txt_w.fixed .menu_btn span {
 	z-index: 2000;
 }
 
-/* jonathan the class below  helps the logo and menu sread apart when the screen gets wider*/
+/* web team the class below  helps the logo and menu sread apart when the screen gets wider*/
 .header-inner {
 	max-width: 1200px;
 		margin: 0 auto;
@@ -1877,7 +1877,7 @@ header.txt_w.fixed .menu_btn span {
 /*
 ヘッダー
 -------------------------------------------*/
-/* jonathan the class below  helps the logo and menu sread apart when the screen gets wider*/
+/* web team the class below  helps the logo and menu sread apart when the screen gets wider*/
 /* .site-header {
 	width: 100%;
 } */
@@ -1942,7 +1942,7 @@ footer .cont_wrap .f_box.lg {
 	margin: 0 auto;
 }
 
-/* jonathan footer logo sizing */
+/* web team footer logo sizing */
 
 .footer-logo {
 	width: auto !important;
@@ -2264,11 +2264,10 @@ textarea {
 	display: block;
 }
 
-.content table.table_01 th {
-	background-color: #fff;
-	/* background-color: #F6F6F6; */
-	#B30000
-}
+
+/* .content table.table_01 th { 
+	text-align: left;
+} */
 
 
 #index_top #top_catch h2 {
@@ -2719,7 +2718,7 @@ dl.faq dd {
 }
 }
 
-/* jonathan style below is to get the text for j-kogu difference small for mobile */
+/* web team style below is to get the text for j-kogu difference small for mobile */
 /* @media screen and (max-width: 768px) { */
 @media screen and (max-width: 732px) {
 
@@ -2785,7 +2784,7 @@ dl.faq dd {
 		padding: 50px 15px 10px;
 	}
 
-	/* jonathan make 2 columns for product photos */
+	/* web team make 2 columns for product photos */
 /* @media screen and (max-width: 768px) { */
 
 	.product_gallery ul li {
@@ -2814,7 +2813,7 @@ dl.faq dd {
 			padding-right: 10px;
 	}
 
-	/* jonathan mobile override for image hover effect */
+	/* web team mobile override for image hover effect */
 	.effect {
 			opacity: 1 !important;
 			transform: none !important;
@@ -2822,7 +2821,7 @@ dl.faq dd {
 			transition: none !important;
 			-webkit-transition: none !important;
 			}
-	/* jonathan mobile for text at top with background image */
+	/* web team mobile for text at top with background image */
 	#index_top #top_catch h1 {
 			font-size: 50px !important;
 			white-space: normal !important;
@@ -2839,7 +2838,7 @@ dl.faq dd {
 			padding-right: 20px !important; */
 			line-height: 1.5;
 			}
-	/* jonathan mobile for background image */
+	/* web team mobile for background image */
 	/* #index_top {
 	width: 100%;
 		height: 60vh;
@@ -2869,7 +2868,7 @@ dl.faq dd {
 	transform: translateY(-40%);
 }
 
- /* jonathan footer logo styling */
+ /* web team footer logo styling */
 	    .footer-logo {
 	    	max-width: 120px !important;
 	    }
